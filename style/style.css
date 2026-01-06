@@ -25,6 +25,16 @@ h1 {
 }
 
 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #151414;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
 }
 
 p {
@@ -37,8 +47,10 @@ p {
 /* shared class */
 
 .container {
+  margin: 0 auto;
   width: 100%;
   max-width: 1140px;
+  border: 1px solid brown;
 }
 
 .btn {
@@ -66,11 +78,9 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #ededed;
-  border: 1px solid red;
 }
 
 .hero-container {
-  margin: 0 auto;
   height: 100%;
   display: flex;
   align-items: center;
@@ -84,4 +94,59 @@ p {
 
 .hero-container .content .text p {
   margin-bottom: 32px;
+}
+
+#fail,
+#plan {
+  width: 100vw;
+  margin: 132px auto;
+}
+
+.fail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fail-container .text-content {
+  width: 100%;
+  max-width: 416px;
+}
+
+.text-content .bodyText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text-content .bodyText ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+#plan {
+  text-align: center;
+}
+
+#plan .plan-container h2 {
+  margin-bottom: 56px;
+}
+
+#plan .plan-container .cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#plan .plan-container .cards-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.cards-container .card img {
+  width: 93px;
+  height: 93px;
 }
