@@ -53,6 +53,10 @@ p {
   border: 1px solid brown;
 }
 
+.white {
+  color: white;
+}
+
 .btn {
   font-size: 20px;
   font-weight: 600;
@@ -66,6 +70,21 @@ p {
 
 .btn:hover {
   background-color: #f15d22cb;
+}
+
+.btn2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f15b22;
+  padding: 20px 26px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: rgba(255, 255, 255, 0.897);
 }
 
 /* uncommon class */
@@ -149,4 +168,28 @@ p {
 .cards-container .card img {
   width: 93px;
   height: 93px;
+}
+
+.banner-container {
+  background-image: linear-gradient(to right, #f15b22, rgba(255, 255, 255, 0)),
+    url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  height: 300px;
+  padding: 60px 64px;
+}
+
+#banner {
+  margin: 132px auto;
+}
+
+footer {
+  background-color: #151414;
+  padding: 130px 0;
+  width: 100vw;
+}
+
+footer .footer-container {
 }
