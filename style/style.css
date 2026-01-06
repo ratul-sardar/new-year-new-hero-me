@@ -1,0 +1,87 @@
+/* sup class */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+h2 {
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #444343;
+}
+
+/* shared class */
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 20px 26px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f15b22;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f15d22cb;
+}
+
+/* uncommon class */
+
+#hero {
+  width: 100vw;
+  height: 808px;
+  background-image: url("/images/banner/banner1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ededed;
+  border: 1px solid red;
+}
+
+.hero-container {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-container .content .text {
+  width: 100%;
+  max-width: 525px;
+}
+
+.hero-container .content .text p {
+  margin-bottom: 32px;
+}
